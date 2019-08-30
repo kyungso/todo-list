@@ -1,1 +1,7 @@
-## todo-list using Redux, immutable.js, redux-actions, Ducks structure
+## todo-list 
+
+- React
+- Redux
+- immutable.js
+- redux-actions, 
+- Ducks structure
