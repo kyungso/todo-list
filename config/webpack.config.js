@@ -99,9 +99,9 @@ module.exports = function(webpackEnv) {
           plugins: () => [
             require('postcss-flexbugs-fixes'),
             require('postcss-preset-env')({
-              autoprefixer: {
-                flexbox: 'no-2009',
-              },
+              // autoprefixer: {
+              //   flexbox: 'no-2009',
+              // },
               stage: 3,
             }),
             // Adds PostCSS Normalize as the reset css with default options,
@@ -460,15 +460,15 @@ module.exports = function(webpackEnv) {
                     ident: 'postcss',
                     plugins: () => [
                       require('postcss-flexbugs-fixes'),
-                      autoprefixer({
-                        browsers: [
-                          '>1%',
-                          'last 4 versions',
-                          'Firefox ESR',
-                          'not ie < 9',
-                        ],
-                        flexbox: 'no-2009',
-                      }),
+                      // autoprefixer({
+                      //   browsers: [
+                      //     '>1%',
+                      //     'last 4 versions',
+                      //     'Firefox ESR',
+                      //     'not ie < 9',
+                      //   ],
+                      //   flexbox: 'no-2009',
+                      // }),
                     ],
                   },
                 },
